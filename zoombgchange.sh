@@ -3,7 +3,7 @@
 # Modified from Saransh's tutorial: https://www.freecodecamp.org/news/how-to-write-a-script-to-change-zoom-background/
 
 # Zoom file that we'll replace
-OG_BG="4C33543E-D290-449E-AFD2-10E6B75954BE";
+OG_BG="BE0BE080-7267-4220-94A5-445AF40B91CC";
 
 # Directory where Zoom keeps background files
 ZOOM_DIR="/Users/$USER/Library/Application Support/zoom.us/data/VirtualBkgnd_Custom/";
@@ -25,7 +25,7 @@ IMG_NAME=$(basename ${NEW_BG})
 # Replace zoom file with new random image
 cp -R "$NEW_BG" "$ZOOM_DIR/$OG_BG";
 
-# Random quotes
+# Random quotes to display when using CLI to update
 QUOTES=('I have a bad feeling about this.' 'Laugh it up, fuzzball.' 'Use the Force, Luke.' 'If you only knew the power of the dark side.' 'You have failed me for the last time.' 'Now, release your anger.' 'I never ask that question until after I'\''ve done it!' 'Have you tried turning it of and then on again?' 'Hello IT');
 LENGTH=${#QUOTES[@]};
 IDX=$[ $RANDOM % $LENGTH ];
