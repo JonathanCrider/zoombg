@@ -2,10 +2,12 @@
 
 Bash script to automatically change your zoom background.
 
-You can change how often this occurs based on how you setup your
-cron job.
+You can change how often this occurs based on how you setup your cron job.
 
 You will need to update the main bash file with your own information/pathways.
+
+This repo is a modified version of Saransh's tutorial:
+[https://www.freecodecamp.org/news/how-to-write-a-script-to-change-zoom-background/](https://www.freecodecamp.org/news/how-to-write-a-script-to-change-zoom-background/)
 
 ## Make File Executable
 
