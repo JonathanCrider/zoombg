@@ -25,8 +25,8 @@ IMG_NAME=$(basename ${NEW_BG})
 # Replace zoom file with new random image
 cp -R "$NEW_BG" "$ZOOM_DIR/$OG_BG";
 
-# Random quotes to display when using CLI to update
-QUOTES=('I have a bad feeling about this.' 'Laugh it up, fuzzball.' 'Use the Force, Luke.' 'If you only knew the power of the dark side.' 'You have failed me for the last time.' 'Now, release your anger.' 'I never ask that question until after I'\''ve done it!' 'Have you tried turning it of and then on again?' 'Hello IT');
+# Random quotes to display when using CLI to update. You can probably tell what most of my backgrounds are :) Obviously, feel free to use your own quotes.
+QUOTES=('I have a bad feeling about this.' 'Laugh it up, fuzzball.' 'Use the Force, Luke.' 'If you only knew the power of the dark side.' 'You have failed me for the last time.' 'Now, release your anger.' 'I never ask that question until after I'\''ve done it!' 'Have you tried turning it of and then on again?' 'Hello IT' 'How the turntables');
 LENGTH=${#QUOTES[@]};
 IDX=$[ $RANDOM % $LENGTH ];
 
